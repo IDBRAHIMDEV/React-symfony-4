@@ -8,12 +8,13 @@ import Home from './components/Home';
 import PostCreate from './components/PostCreate';
 import Navbar from './components/Navbar';
 import PageNotFound from './components/PageNotFound';
-import './App.css';
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <div className="container">
         <Router>
           <Navbar />
             <Switch>
@@ -23,6 +24,8 @@ class App extends Component {
                <Route exact component={PageNotFound} />
             </Switch>
         </Router> 
+        </div>
+       
         
       </div>
     );
