@@ -39,7 +39,7 @@ class Posts extends Component {
           </thead>
           <tbody>
             { this.state.posts.map(post => (
-             <tr>
+             <tr key={post.id}>
               <td>{ post.title }</td>
               <td>{ post.author }</td>
               <td>{ post.content }</td>

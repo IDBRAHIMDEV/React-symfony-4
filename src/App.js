@@ -7,6 +7,7 @@ import Posts from './components/Posts';
 import Home from './components/Home';
 import PostCreate from './components/PostCreate';
 import Navbar from './components/Navbar';
+import Login from './components/Login';
 import PageNotFound from './components/PageNotFound';
 
 
@@ -19,6 +20,7 @@ class App extends Component {
           <Navbar />
             <Switch>
                <Route exact path="/" component={Home} />
+               <Route exact path="/login" component={Login} />
                <Route exact path="/posts" component={Posts} />
                <Route exact path="/posts/create" component={PostCreate} />
                <Route exact component={PageNotFound} />
