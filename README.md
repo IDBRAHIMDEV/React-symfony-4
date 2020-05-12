@@ -72,3 +72,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 ## new line from bright coding
 
 ## new file, this is a new file here for the test of 'Fork' command 
+
+## Other new line in readme file
